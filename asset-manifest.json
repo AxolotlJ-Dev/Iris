@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Iris/static/css/main.5f29e5aa.css",
+    "main.js": "/Iris/static/js/main.12225fd0.js",
+    "index.html": "/Iris/index.html",
+    "main.5f29e5aa.css.map": "/Iris/static/css/main.5f29e5aa.css.map",
+    "main.12225fd0.js.map": "/Iris/static/js/main.12225fd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f29e5aa.css",
+    "static/js/main.12225fd0.js"
+  ]
+}
