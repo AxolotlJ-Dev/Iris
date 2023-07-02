@@ -4,9 +4,9 @@ import { NavLink } from "react-router-dom";
 
 export default function Nav(props) {
   const collapseItems = [
-    <NavLink to="/">Home</NavLink> ,
+    <NavLink to="/Iris/">Home</NavLink> ,
     "User",
-    <NavLink to="Chat-Room">Chat Room</NavLink> ,
+    <NavLink to="/Iris/Chat-Room">Chat Room</NavLink> ,
     "Account",
     <SignOut />,
     // "Dashboard",
@@ -40,11 +40,11 @@ export default function Nav(props) {
         hideIn="xs"
         variant="highlight-rounded"
       >
-        <NavLink to="/">
+        <NavLink to="/Iris/">
           <Navbar>Home</Navbar>
         </NavLink>
         <Navbar.Link href="#">User</Navbar.Link>
-        <NavLink to="Chat-Room">
+        <NavLink to="/Iris/Chat-Room">
           <Navbar>Chat Room</Navbar>
         </NavLink>
         <Navbar.Link href="#">Account</Navbar.Link>

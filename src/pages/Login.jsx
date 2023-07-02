@@ -8,7 +8,7 @@ const Login = () => {
     <div className="Login">
       iniciar sesion
       <SignIn />
-      <Link to="/SignUp"> Sign Up </Link>
+      <Link to="Iris/SignUp"> Sign Up </Link>
     </div>
   );
 };

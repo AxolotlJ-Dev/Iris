@@ -71,7 +71,7 @@ const SignIn = () => {
           <Spacer y={2} />
 
           <Button onPress={handleSignIn} color="secondary" auto ghost >
-            <Link to="/"> Iniciar sesión </Link>
+            <Link to="/Iris/"> Iniciar sesión </Link>
           </Button>
           <Spacer y={2} />
 
